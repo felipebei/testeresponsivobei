@@ -1,0 +1,39 @@
+
+/* MOBILE */
+
+html {
+    font-size: 15px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.imagem img {
+    width: 300px;
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 600px) {
+    html {
+    font-size: 25px;
+    }
+
+    .imagem img {
+        width: 500px;
+    }
+}
